@@ -52,10 +52,10 @@ As such, those are in use within the default layer at this time.*/
               };
               raise_layer {
  // ---------------------------------------------------------------------------------------------------------------------------------
- // |   ~   |   !   |   @   |   #   |   $   |   %   |                                    |   ^   |   &   |   *   |   (   |   )  |  DEL  |
- // |       |       |       |       |       |       |                                    |       |   -   |   +   |   {   |   }  |   |   |
- // | SHIFT |   \   |   /   |       |       |       |                                    |       |   _   |       |   [   |   ]  |       |
- // |       |  CAPS |       |       |       |       |                                    |       |       |       |   <   |   >  |       |
+ // |   ~   |   !   |   @   |   #   |   $   |   %   |                                    |   ^   |   &   |   *   |   opar   |   cpar  |  DEL  |
+ // |       |       |       |       |       |       |                                    |       |   -   |   +   |   obrc   |   cbrc  |   |   |
+ // | SHIFT |   \   |   /   |       |       |       |                                    |       |   _   |       |   obrkt   |   cbrkt  |       |
+ // |       |  CAPS |       |       |       |       |                                    |       |       |       |   less   |   great  |       |
                      bindings = <
        &kp GRAVE &kp EXCL   &kp AT   &kp HASH &kp DLLR  &kp PRCNT                       &kp CARET  &kp AMPS    &kp STAR   &kp LPAR     &kp RPAR     &kp DEL
        &trans    &trans     &trans   &trans   &trans    &trans                          &trans     &kp MINUS   &kp EQUAL  &kp LBRC     &kp RBRC     &kp PIPE
@@ -64,17 +64,13 @@ As such, those are in use within the default layer at this time.*/
                      >;
               };
               adjust_layer {
- // ---------------------------------------------------------------------------------------------------------------------------------
- // |  BT CLR  | BT SEL0  | BT SEL1  | BT SEL2  | BGT SEL3 | BT SEL4  |                                          |          |          |          |          |          |          |
- // |  BT NXT  | OUT TOG  | OUT USB  | OUT BLE  |          |          |                                          |          |          |          |          |          |          |
- // |  BT PRV  |BT_CLR_ALL|          |          |          |          |                                          |          |          |          |          |          |          |
- // |          |          |          |          |          |          |                                          |          |          |          |          |          |          |
-                     bindings = <
-       &bt BT_CLR     &bt BT_SEL(0)    &bt BT_SEL(1)   &bt BT_SEL(2)   &bt BT_SEL(3)   &bt BT_SEL(4)                      &trans  &trans  &trans  &trans  &trans  &trans
-       &bt BT_NXT     &out OUT_TOG     &out OUT_USB   &out OUT_BLE   &trans         &trans                                &trans  &trans  &trans  &trans  &trans  &trans
-       &bt BT_PRV     &bt BT_CLR_ALL   &trans         &trans         &trans         &trans                                &trans  &trans  &trans  &trans  &trans  &trans
-       &trans         &trans           &trans         &trans         &trans         &trans                                &trans  &trans  &trans  &trans  &trans  &trans
-                     >;
+    bindings = <
+        &bt BT_CLR        &bt BT_SEL(0)    &bt BT_SEL(1)   &bt BT_SEL(2)   &bt BT_SEL(3)   &bt BT_SEL(4)  
+        &bt BT_NXT        &out OUT_TOG     &out OUT_USB    &out OUT_BLE    &trans          &trans
+        &bt BT_PRV        &bt BT_CLR_ALL   &trans          &trans          &trans          &trans
+        &trans            &trans           &trans          &trans          &trans          &trans
+    >;
               };
+
        };
 };
