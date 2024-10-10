@@ -39,13 +39,12 @@ As such, those are in use within the default layer at this time.*/
               };
               lower_layer {
  // ---------------------------------------------------------------------------------------------------------------------------------
- // |      |      |      |      |      |      |                                  |      |      |      |      |      |      |
  // |  ~   |  !   |  @   |  #   |  $   |  %   |                                  |  ^   |  &   |  *   |  (   |  )   |      |
  // |      |      |      |      |      |      |                                  |      |  _   |  +   |  {   |  }   | PIPE |
  // |      |      |      |      |      |      |  (   |                    |  )   |      |      |      | HOME | END  |      |
  // |      |      |      |      |      |      |      |                    |      |      |      |      |      |      |      |
                      bindings = <
-       &kp TILDE &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT                          &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &trans
+       &kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4  &kp N5                       &kp N6  &kp N7    &kp N8     &kp N9       &kp N0       &kp DEL
        &trans    &trans   &trans &trans   &trans   &trans                             &trans    &kp UNDER &kp PLUS  &kp LBRC &kp RBRC &kp PIPE
        &trans    &trans   &trans &trans   &trans   &trans                             &trans    &trans    &trans    &kp HOME &kp END  &trans
        &trans    &trans   &trans &trans   &trans   &trans                             &trans    &trans    &trans    &trans   &trans   &trans
@@ -59,7 +58,7 @@ As such, those are in use within the default layer at this time.*/
  // |       |  F7   |  F8   |  F9   |  F10  |  F11  |       |                    |       |  F12  |       | PSCRN | PG_DN | PG_UP |       |
  // |       |       |       |       |       |       |       |                    |       |       |       | NEXT  | VOL-  | VOL+  | PLAY  |
                      bindings = <
-       &kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4  &kp N5                       &kp N6  &kp N7    &kp N8     &kp N9       &kp N0       &kp DEL
+       &kp TILDE &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT               &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &trans
        &trans    &kp F1 &kp F2 &kp F3 &kp F4  &kp F5                       &kp F6  &kp MINUS &kp EQUAL  &kp LBKT     &kp RBKT     &kp BSLH
        &trans    &kp F7 &kp F8 &kp F9 &kp F10 &kp F11                      &kp F12 &trans    &kp PSCRN  &kp PG_DN    &kp PG_UP    &trans
        &trans    &trans &trans &trans &trans  &trans                       &trans  &trans    &kp C_NEXT &kp C_VOL_DN &kp C_VOL_UP &kp C_PP
