@@ -43,12 +43,12 @@ As such, those are in use within the default layer at this time.*/
  // |  `   |  1   |  2   |  3   |  4   |  5   |                                  |  6   |  7   |  8   |  9   |  0   | BSPC |
  // |      |      |      |      |      |      |                                  |      |  4   |  5   |  6   |  -   |   +  |
  // |      |      |      |      |      |      |                                  |      |  1   |  2   |  3   |VOL U | ENTER|
- // |      |      |      |      |      |      |                                  |      |      |  0   |      |VOL D |      |
+ // | BOOT |      |      |      |      |      |                                  |      |      |  0   |      |VOL D |      |
                      bindings = <
-       &kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4  &kp N5                       &kp N6  &kp N7    &kp N8     &kp N9       &kp N0       &kp BSPC
-       &trans    &trans   &trans &trans   &trans   &trans                             &trans    &kp N4 &kp N5  &kp N6 &kp MINUS &kp PLUS
-       &trans    &trans   &trans &trans   &trans   &trans                             &trans    &kp N1    &kp N2    &kp N3 &kp C_VOL_UP  &kp ENTER
-       &trans    &trans   &trans &trans   &trans   &trans                             &trans    &mo ADJUST    &kp N0    &trans   &kp C_VOL_DN   &trans
+       &kp GRAVE   &kp N1   &kp N2  &kp N3   &kp N4   &kp N5                       &kp N6    &kp N7     &kp N8  &kp N9 &kp N0       &kp BSPC
+       &trans      &trans   &trans  &trans   &trans   &trans                       &trans    &kp N4     &kp N5  &kp N6 &kp MINUS    &kp PLUS
+       &trans      &trans   &trans  &trans   &trans   &trans                       &trans    &kp N1     &kp N2  &kp N3 &kp C_VOL_UP &kp ENTER
+       &bootloader &trans   &trans  &trans   &trans   &trans                       &trans    &mo ADJUST &kp N0  &trans &kp C_VOL_DN &trans
                      >;
               };
               raise_layer {
@@ -56,12 +56,12 @@ As such, those are in use within the default layer at this time.*/
  // |   ~   |   !   |   @   |   #   |   $   |   %   |                                    |   ^   |   &   |   *   |   (   |   )   |  DEL  |
  // |       |       |       |       |       |       |                                    |       |   -   |   =   |   [   |   ]   |   \   |
  // |       |       |       |       |       |       |                                    |       |       |       | LBKT  | RBKT  |       |
- // |       |       |       |       |       |       |                                    |       |       |       | LT    | GT    | PLAY  |
+ // |       |       |       |       |       |       |                                    |       |       |       | LT    | GT    | BOOT  |
                      bindings = <
-       &kp TILDE &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT               &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &kp DEL
-       &trans    &trans &trans &trans &trans  &trans                       &trans  &kp MINUS &kp PLUS  &kp LBRC     &kp RBRC     &kp PIPE
-       &kp LSHFT    &kp BSLH &kp FSLH &trans &trans &trans                      &trans &kp UNDERSCORE    &trans  &kp LBKT   &kp RBKT    &trans
-       &trans    &kp CAPS &trans &trans &mo ADJUST  &trans                       &trans  &trans    &trans &kp LT &kp GT &trans
+       &kp TILDE  &kp EXCL &kp AT   &kp HASH &kp DLLR   &kp PRCNT                    &kp CARET &kp AMPS        &kp ASTRK &kp LPAR &kp RPAR &kp DEL
+       &trans     &trans   &trans   &trans   &trans     &trans                       &trans    &kp MINUS       &kp PLUS  &kp LBRC &kp RBRC &kp PIPE
+       &kp LSHFT  &kp BSLH &kp FSLH &trans   &trans     &trans                       &trans    &kp UNDERSCORE  &trans    &kp LBKT &kp RBKT &trans
+       &trans     &kp CAPS &trans   &trans   &mo ADJUST &trans                       &trans    &trans          &trans    &kp LT   &kp GT   &bootloader
                      >;
               };
               adjust_layer {
