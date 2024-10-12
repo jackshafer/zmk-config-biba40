@@ -46,13 +46,21 @@ Rubber Foot Pads
 
 * Import the STL files in the Case folder to your favorite slicer. You can print one side of the case, then simply mirror the file in your slicer for the other side. My keyboard was printed on an Ender 3 v3 SE.
 
+![](https://i.imgur.com/OrULCEy.jpeg)
+
 * Gently bend each diode on both sides so that they can smoothly insert into the holes marked with the diode symbol. Orientation is important with the diodes for the board to operate properly. Insert the legs of each diode into their holes and bend the legs on the other side so that the diodes don’t slide out. The diodes should be located on the bottom of the boards, with the legs sticking up.
 
 * When all the diodes are inserted, flip the board and solder all the legs for the diodes. Trim the legs with side cutters. There is one diode in the bottom left and right respectively that is located within the footprint of the switch it’s connected to, so it may require a more flush cut than the others. Be careful not to cut it too flush so that you ruin the solder connection.
 
+![](https://i.imgur.com/6GKHq0F.jpeg)
+
 * Carefully line the switches up with the holes on the board. You can use 3 pin or 5 pin switches. 5 pin will be more steady in the absence of a plate. Solder each switch until both boards have all the switches soldered in place.
 
+![](https://i.imgur.com/w7pzS30.jpeg)
+
 * Connect the nice!nano v2 boards to the Biba40 shields with the provided headers. The nice!nano will be on the same side as the switches. Solder the header to the shield and the nice!nano to the headers.
+
+![](https://i.imgur.com/n9ZjpyI.jpeg)
 
 * Plug in each nice!nano v2 to a computer with a USB C cable, from the factory they should show up as USB drives on your computer. Flash each nice!nano v2 with the corresponding firmware file (left to left, right to right) by dragging the file into the connected drive. It will flash and then disconnect.  You can short out the GND and RST pins twice if the USB drive isn’t seen by your PC. The included settings_reset-nice_nano_v2-zmk.uf2 file can be used to reset the settings on either board (see ZMK docs for more info)
 
