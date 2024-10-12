@@ -1,7 +1,7 @@
 # Biba Ortho Split 40% W
 
-![](https://i.imgur.com/y4LSuKU.jpeg)
-![](https://i.imgur.com/w4r3J1u.jpeg)
+![](https://i.imgur.com/8fneHBw.jpeg)
+![](https://i.imgur.com/3vjKH9r.jpeg)
 A 40% Ortholiner wireless keyboard powered by ZMK.
 
 * Keyboard Maintainer: [Daniel Biba](https://github.com/danbiba)
