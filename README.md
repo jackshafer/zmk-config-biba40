@@ -2,6 +2,7 @@
 
 ![](https://i.imgur.com/8fneHBw.jpeg)
 ![](https://i.imgur.com/3vjKH9r.jpeg)
+![](https://i.imgur.com/ASZ71yc.jpg)
 A 40% Ortholiner wireless keyboard powered by ZMK.
 
 * Keyboard Maintainer: [Daniel Biba](https://github.com/danbiba)
