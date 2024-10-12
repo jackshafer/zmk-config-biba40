@@ -73,6 +73,3 @@ Rubber Foot Pads
 * Pair the Biba40 to your computer or device and start typing.
 
 
-![](https://i.imgur.com/SRCwL41.jpeg)
-
-
