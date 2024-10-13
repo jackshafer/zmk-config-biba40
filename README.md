@@ -4,7 +4,7 @@
 ![](https://i.imgur.com/3vjKH9r.jpeg)
 ![](https://i.imgur.com/ASZ71yc.jpg)
 ![](https://i.imgur.com/0HZa6m4.png)
-A 40% Ortholiner wireless keyboard powered by ZMK.
+A 40% Split Ortholiner wireless keyboard powered by ZMK.
 
 * Keyboard Maintainer: [Daniel Biba](https://github.com/danbiba)
 * Hardware Supported: nice!nano v2
