@@ -10,15 +10,15 @@ A 40% Split Ortholiner wireless keyboard powered by ZMK.
 * Hardware Availability: 3D Printable
 
 ## Keymap
-# Default Layer
+### Default Layer
 ![](https://i.imgur.com/YZjMNj9.jpeg)
-# Lower Layer
+### Lower Layer
 ![](https://i.imgur.com/LVObsYg.jpeg)
-# Raise Layer
+### Raise Layer
 ![](https://i.imgur.com/UUyTOqZ.jpeg)
-# Adjust Layer
+### Adjust Layer
 ![](https://i.imgur.com/8mZ9RFT.jpeg)
-# Function Layer
+### Function Layer
 ![](https://i.imgur.com/Mz9wxEt.jpeg)
 
 ## Setup
