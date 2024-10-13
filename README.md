@@ -3,7 +3,6 @@
 ![](https://i.imgur.com/8fneHBw.jpeg)
 ![](https://i.imgur.com/3vjKH9r.jpeg)
 ![](https://i.imgur.com/ASZ71yc.jpg)
-![](https://i.imgur.com/0HZa6m4.png)
 A 40% Split Ortholiner wireless keyboard powered by ZMK.
 
 * Keyboard Maintainer: [Daniel Biba](https://github.com/danbiba)
@@ -17,9 +16,9 @@ A 40% Split Ortholiner wireless keyboard powered by ZMK.
 ![](https://i.imgur.com/LVObsYg.jpeg)
 # Raise Layer
 ![](https://i.imgur.com/UUyTOqZ.jpeg)
-Adjust Layer
+# Adjust Layer
 ![](https://i.imgur.com/8mZ9RFT.jpeg)
-Function Layer
+# Function Layer
 ![](https://i.imgur.com/Mz9wxEt.jpeg)
 
 ## Setup
