@@ -39,7 +39,7 @@ Lithium Battery 110mAh (x2)
 https://typeractive.xyz/products/lithium-battery-110mah?pr_prod_strat=pinned&pr_rec_id=a04cb0af0&pr_rec_pid=7488871366887&pr_ref_pid=7488867991783&pr_seq=uniform
 
 
-Custom Printed PCB
+Custom Printed PCB: use the files in the production folder to upload for manufacturing (I used PCBway for the first run)
 
 Rubber Foot Pads
     
