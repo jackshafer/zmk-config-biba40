@@ -10,6 +10,18 @@ A 40% Split Ortholiner wireless keyboard powered by ZMK.
 * Hardware Supported: nice!nano v2
 * Hardware Availability: 3D Printable
 
+## Keymap
+# Default Layer
+![](https://i.imgur.com/YZjMNj9.jpeg)
+# Lower Layer
+![](https://i.imgur.com/LVObsYg.jpeg)
+# Raise Layer
+![](https://i.imgur.com/UUyTOqZ.jpeg)
+Adjust Layer
+![](https://i.imgur.com/8mZ9RFT.jpeg)
+Function Layer
+![](https://i.imgur.com/Mz9wxEt.jpeg)
+
 ## Setup
 Clone the repository located at https://github.com/danbiba/zmk-config-biba40
 
