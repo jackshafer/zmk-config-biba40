@@ -57,7 +57,7 @@ Rubber Foot Pads
 
 ## Assembly
 
-* Import the STL files in the Case folder to your favorite slicer. You can print one side of the case, then simply mirror the file in your slicer for the other side. My keyboard was printed on an Ender 3 v3 SE.
+* Import the STL files in the Case folder to your favorite slicer. You can print one side of the case, then simply mirror the file in your slicer for the other side. My keyboard was printed on an Ender 3 v3 SE and I used the fuzzy skin setting for a nice finish.
 
 ![image8](images/split_40_case_rev2.png)
 
