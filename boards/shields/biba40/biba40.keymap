@@ -35,12 +35,12 @@ As such, those are in use within the default layer at this time.*/
  // |  ESC   |   Q    |   W    |   E    |   R    |   T    |                                      |   Y    |   U    |   I    |   O    |   P    |  BSPC  |
  // |  TAB  |   A    |   S    |   D    |   F    |   G    |                                      |   H    |   J    |   K    |   L    |   ;    |   "    |
  // |  SHIFT |   Z    |   X    |   C    |   V    |   B    |                                      |   N    |   M    |   ,    |   .    |   UP   |  ENTER |
- // | FUNC |  CTRL  |  LGUI  |  LALT  | LOWER  | SPACE  |                                      | SPACE  |  RAISE |  SLASH |  LEFT  |  DOWN  |  RIGHT |
+ // | FUNC |  CTRL  |  LALT  |  LGUI  | LOWER  | SPACE  |                                      | SPACE  |  RAISE |  SLASH |  LEFT  |  DOWN  |  RIGHT |
                      bindings = <
        &kp ESC    &kp Q     &kp W    &kp E    &kp R     &kp T                                  &kp Y     &kp U     &kp I      &kp O      &kp P     &kp BSPC
        &kp TAB    &kp A     &kp S    &kp D    &kp F     &kp G                                  &kp H     &kp J     &kp K      &kp L      &kp SEMI  &kp SQT
        &kp LSHFT  &kp Z     &kp X    &kp C    &kp V     &kp B                                  &kp N     &kp M     &kp COMMA  &kp PERIOD &kp UP    &kp ENTER
-       &mo FUNCTION &kp LCTRL &kp LGUI &kp LALT &mo LOWER &kp SPACE                              &kp SPACE &mo RAISE &kp SLASH  &kp LEFT   &kp DOWN  &kp RIGHT
+       &mo FUNCTION &kp LCTRL &kp LALT &kp LGUI &mo LOWER &kp SPACE                              &kp SPACE &mo RAISE &kp SLASH  &kp LEFT   &kp DOWN  &kp RIGHT
                      >;
               };
               lower_layer {
@@ -64,8 +64,8 @@ As such, those are in use within the default layer at this time.*/
  // |       |       |       |       |       |       |                                    |       |       |       | LT    | GT    | BOOT  |
                      bindings = <
        &kp TILDE  &kp EXCL &kp AT   &kp HASH &kp DLLR   &kp PRCNT                    &kp CARET &kp AMPS        &kp ASTRK &kp LPAR &kp RPAR &kp DEL
-       &trans     &trans   &trans   &trans   &trans     &trans                       &trans    &kp MINUS       &kp PLUS  &kp LBRC &kp RBRC &kp PIPE
-       &kp LSHFT  &kp BSLH &kp FSLH &trans   &trans     &trans                       &trans    &kp UNDERSCORE  &trans    &kp LBKT &kp RBKT &mkp LCLK
+       &trans     &trans   &trans   &trans   &mmv MOVE_UP     &trans                       &trans    &kp MINUS       &kp PLUS  &kp LBRC &kp RBRC &kp PIPE
+       &kp LSHFT  &kp BSLH &kp FSLH &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT                       &trans    &kp UNDERSCORE  &trans    &kp LBKT &kp RBKT &mkp LCLK
        &trans     &kp CAPS &trans   &trans   &mo ADJUST &trans                       &trans    &trans          &trans    &kp LT   &kp GT   &bootloader
                      >;
               };
