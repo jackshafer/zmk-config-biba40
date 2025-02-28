@@ -1,6 +1,7 @@
 # Biba Ortho Split 40% W
 
 ![image0](images/grey_and_purple_keycaps2.jpg)
+![image13](images/PXL_20250227_221220365.PORTRAIT.ORIGINAL.jpg)
 ![image1](images/custom_pcb.jpg)
 ![image2](images/shield_and_switches.jpg)
 A 40% Split Ortholiner wireless keyboard powered by ZMK.
@@ -42,6 +43,11 @@ Enter the bootloader in 3 ways:
 Diodes (x48): https://a.co/d/eJoqduj
     
 nice!nano v2 Boards (x2): https://typeractive.xyz/products/nice-nano?srsltid=AfmBOorYy64nuOajRfCriYDKuNkl67lxsEgmVNestwJp75MjIY7lx9oo
+
+*or*
+
+Supermini NRF52840 (x2):
+https://shorturl.at/Ixrgx
     
 Switches (Akko V3 Creamy Blue Pro x48):
 https://a.co/d/eVtw93V
@@ -71,15 +77,17 @@ Rubber Foot Pads
 
 ![image10](images/shield_and_switches.jpg)
 
-* Connect the nice!nano v2 boards to the Biba40 shields with the provided headers. The nice!nano will be on the same side as the switches. Solder the header to the shield and the nice!nano to the headers.
+* Connect the nice!nano v2/Supermini NRF52840 controller to the Biba40 shields with the provided headers. The controller will be on the same side as the switches. Solder the header to the shield and the controller to the headers.
 
 ![image11](images/nice_nano.jpg)
+![image15](images/PXL_20250227_221245341.PORTRAIT.ORIGINAL.jpg)
 
-* Plug in each nice!nano v2 to a computer with a USB C cable, from the factory they should show up as USB drives on your computer. Flash each nice!nano v2 with the corresponding firmware file (left to left, right to right) by dragging the file into the connected drive. It will flash and then disconnect.  You can short out the GND and RST pins twice if the USB drive isn’t seen by your PC. The included settings_reset-nice_nano_v2-zmk.uf2 file can be used to reset the settings on either board (see ZMK docs for more info)
+* Plug in each nice!nano v2/Supermini NRF52840 to a computer with a USB C cable, from the factory they should show up as USB drives on your computer. Flash each controller with the corresponding firmware file (left to left, right to right) by dragging the file into the connected drive. It will flash and then disconnect.  You can short out the GND and RST pins twice if the USB drive isn’t seen by your PC. The included settings_reset-nice_nano_v2-zmk.uf2 file can be used to reset the settings on either board (see ZMK docs for more info)
 
 * You can solder the battery to the GND and B+ pins on the bottom of the shield directly, however you can include an inline switch if desired.
 
-![image12](images/power_switch.jpg)  
+![image12](images/power_switch.jpg)
+![image14](images/PXL_20250227_141126423.jpg)
 
 * The Biba40 shield will snap into the 3d printed cases. If you want you can secure it with screws into the included studs via the holes on the board or a little glue.
 
