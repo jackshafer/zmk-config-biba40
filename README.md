@@ -6,7 +6,7 @@
 A 40% Split Ortholiner wireless keyboard powered by ZMK.
 
 * Keyboard Maintainer: [Daniel Biba](https://github.com/danbiba)
-* Hardware Supported: nice!nano v2
+* Hardware Supported: nice!nano v2, Supermini NRF52840
 * Hardware Availability: 3D Printable
 
 ## Keymap
