@@ -1,5 +1,6 @@
 # Biba Ortho Split 40% W
 
+![image16](images/PXL_20250408_155905966.jpg)
 ![image0](images/grey_and_purple_keycaps2.jpg)
 ![image13](images/PXL_20250227_221220365.PORTRAIT.ORIGINAL.jpg)
 ![image1](images/custom_pcb.jpg)
@@ -56,7 +57,7 @@ Lithium Battery 110mAh (x2)
 https://typeractive.xyz/products/lithium-battery-110mah?pr_prod_strat=pinned&pr_rec_id=a04cb0af0&pr_rec_pid=7488871366887&pr_ref_pid=7488867991783&pr_seq=uniform
 
 
-Custom Printed PCB: use the files in the production folder to upload for manufacturing (I used PCBway for the first run)
+Custom Printed PCB: use the files in the production folder to upload for manufacturing. The PCBs for the Biba40  were produced by PCBWay (https://www.pcbway.com/). Their fabrication process ensured a reliable build and helped bring this project to life.
 
 Rubber Foot Pads
     
