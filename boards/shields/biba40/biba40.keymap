@@ -54,7 +54,7 @@ As such, those are in use within the default layer at this time.*/
        &kp GRAVE   &kp N1   &kp N2  &kp N3   &kp N4   &kp N5                       &kp N6    &kp N7     &kp N8  &kp N9 &kp N0       &kp BSPC
        &trans      &trans   &trans  &trans   &trans   &trans                       &trans    &kp N4     &kp N5  &kp N6 &kp MINUS    &kp PLUS
        &trans      &trans   &trans  &trans   &trans   &trans                       &trans    &kp N1     &kp N2  &kp N3 &kp C_VOL_UP &kp ENTER
-       &bootloader &trans   &trans  &trans   &trans   &studio_unlock                       &trans    &mo ADJUST &kp N0  &trans &kp C_VOL_DN &trans
+       &bootloader &trans   &trans  &trans   &trans   &trans                       &trans    &mo ADJUST &kp N0  &trans &kp C_VOL_DN &trans
                      >;
               };
               raise_layer {
@@ -65,8 +65,8 @@ As such, those are in use within the default layer at this time.*/
  // |       |       |       |       |       |       |                                    |       |       |       | LT    | GT    | BOOT  |
                      bindings = <
        &kp TILDE  &kp EXCL &kp AT   &kp HASH &kp DLLR   &kp PRCNT                    &kp CARET &kp AMPS        &kp ASTRK &kp LPAR &kp RPAR &kp DEL
-       &trans     &trans   &trans   &trans   &mmv MOVE_UP     &trans                       &trans    &kp MINUS       &kp PLUS  &kp LBRC &kp RBRC &kp PIPE
-       &kp LSHFT  &kp BSLH &kp FSLH &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT                       &trans    &kp UNDERSCORE  &trans    &kp LBKT &kp RBKT &mkp MS_BTN1
+       &trans     &trans   &trans   &trans   &trans     &trans                       &trans    &kp MINUS       &kp PLUS  &kp LBRC &kp RBRC &kp PIPE
+       &kp LSHFT  &kp BSLH &kp FSLH &trans   &trans  &trans                       &trans    &kp UNDERSCORE  &trans    &kp LBKT &kp RBKT &trans
        &trans     &kp CAPS &trans   &trans   &mo ADJUST &trans                       &trans    &trans          &trans    &kp LT   &kp GT   &bootloader
                      >;
               };
