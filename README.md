@@ -57,7 +57,8 @@ Lithium Battery 110mAh (x2)
 https://typeractive.xyz/products/lithium-battery-110mah?pr_prod_strat=pinned&pr_rec_id=a04cb0af0&pr_rec_pid=7488871366887&pr_ref_pid=7488867991783&pr_seq=uniform
 
 
-Custom Printed PCB: use the files in the production folder to upload for manufacturing. The PCBs for the Biba40  were produced by PCBWay (https://www.pcbway.com/). Their fabrication process ensured a reliable build and helped bring this project to life.
+Custom Printed PCB: use the files in the production folder to upload for manufacturing. The PCBs for the Biba40  were produced by PCBWay (https://www.pcbway.com/). Their fabrication process ensured a reliable build and helped bring this project to life. I ordered the v2 version of the board, and got them built and delivered shockingly fast (under 1 week)
+![image16](images/PXL_20250418_230730889.jpg)
 
 Rubber Foot Pads
     
