@@ -1,4 +1,4 @@
-# Biba Ortho Split 40% W
+# Biba40
 
 ![image16](images/PXL_20250408_155905966.jpg)
 ![image0](images/grey_and_purple_keycaps2.jpg)
