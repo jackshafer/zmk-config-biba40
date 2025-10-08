@@ -1,10 +1,12 @@
 # Biba40
+## The BIBA40 is a compact, split, wireless keyboard powered by ZMK firmware and two microcontrollers.
 
 ![image16](images/PXL_20250408_155905966.jpg)
 ![image0](images/grey_and_purple_keycaps2.jpg)
 ![image13](images/PXL_20250227_221220365.PORTRAIT.ORIGINAL.jpg)
 ![image1](images/custom_pcb.jpg)
 ![image2](images/shield_and_switches.jpg)
+![image2](images/PXL_20250418_230730889.jpg)
 A 40% Split Ortholiner wireless keyboard powered by ZMK.
 
 * Keyboard Maintainer: [Daniel Biba](https://github.com/danbiba)
