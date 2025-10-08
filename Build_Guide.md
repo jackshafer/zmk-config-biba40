@@ -9,7 +9,7 @@
 
 The **BIBA40** is a compact, split, wireless keyboard powered by ZMK firmware and two microcontrollers. This guide provides a clear, step-by-step process for building the latest V2 revision, including 3D printing, assembly, flashing, and pairing.
 
-![image1](images/PXL_20250408_155905966.jpg)
+![image1](images/Glamour_Shot.jpg)
 
 ---
 
