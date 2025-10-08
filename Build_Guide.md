@@ -9,7 +9,7 @@
 
 The **BIBA40** is a compact, split, wireless keyboard powered by ZMK firmware and two microcontrollers. This guide provides a clear, step-by-step process for building the latest V2 revision, including 3D printing, assembly, flashing, and pairing.
 
-![image16](images/PXL_20250408_155905966.jpg)
+![image1](images/PXL_20250408_155905966.jpg)
 
 ---
 
@@ -17,9 +17,9 @@ The **BIBA40** is a compact, split, wireless keyboard powered by ZMK firmware an
 
 ### Custom Printed PCB
 
-Use the files in the **`production`** folder to upload for manufacturing. The PCBs for the BIBA40 were produced by [PCBWay](https://www.pcbway.com/). Their fabrication process ensured a reliable build and helped bring this project to life. The **V2** boards were manufactured and delivered in under one week.
+If you're looking to have one of these PCBs custom make, use the files in the **`production`** folder to upload for manufacturing. The PCBs for the BIBA40 were produced by [PCBWay](https://www.pcbway.com/). Their fabrication process ensured a reliable build and helped bring this project to life. The **V2** boards were manufactured and delivered in under one week.
 
-![image16](images/PXL_20250418_230730889.jpg)
+![image2](images/PXL_20250418_230730889.jpg)
 
 ---
 
@@ -27,12 +27,12 @@ Use the files in the **`production`** folder to upload for manufacturing. The PC
 
 ### Electronics
 
-* 2 × BIBA40 **V2** PCBs (left and right)
-* 2 × Microcontrollers (e.g., **nice!nano v2** or **Supermini NRF52840**) with matching headers
-* 48 × 1N4148W surface-mount diodes
+* 2 × BIBA40 **V2** PCBs (left and right) https://Bibakeyboards.com or order from PCBway
+* 2 × Microcontrollers (e.g., **nice!nano v2** or **Supermini NRF52840**) with matching headers https://tinyurl.com/4uzn3k5p
+* 48 × 1N4148W surface-mount diodes https://tinyurl.com/u4n7be6v
 * 48 × Mechanical switches (5-pin recommended)
-* 2 × 3.7V 600mAh LiPo batteries with JST-PH 2-pin connectors (one per half)
-* 2 × JST PH-2 to bare wire cables (battery to PCB connection)
+* 2 × 3.7V 600mAh LiPo batteries with JST-PH 2-pin connectors (one per half) https://tinyurl.com/yckcn2nw
+* 2 × JST PH-2 to bare wire cables (battery to PCB connection) https://tinyurl.com/3m6w2ezd
 * 2 × Power slide switches (one per half)
 * Hook-up wire for power switch leads (approximately 4" per half)
 
@@ -41,19 +41,24 @@ Use the files in the **`production`** folder to upload for manufacturing. The PC
 * 3D-printed components:
 
   * **Case ×2** (mirror one for left/right)
+    ![image3](images/Biba40_Case_v2.png)   
   * **Battery Cover ×2**
+    ![image3](images/Biba40_Battery_Cover_v2.png)
   * **Mini Plate ×2**
-* Heat-set threaded inserts: **2-56 × 4.0**
-* Machine screws (2-56 to match inserts)
-* Rubber adhesive feet
-* Kapton or heat tape for wire strain relief
+    ![image3](images/Biba40_Alignment_Plate_v2.png)
+* Heat-set threaded inserts: **2-56 × 4.0** https://tinyurl.com/3tsjmrzd
+* Machine screws (2-56 to match inserts) https://tinyurl.com/4tx2c6br
+* Rubber adhesive feet https://tinyurl.com/4bz7kvkp
+* Kapton or heat tape for wire strain relief https://tinyurl.com/54bem9f9
 
 ### Tools
 
 * Soldering iron with fine tip, solder, and flux
 * Hot-air rework station (optional) or iron reflow for SMD diodes
 * Heat-set insert tool or temperature-controlled iron
-* Tweezers, side cutters, precision screwdriver
+* Tweezers
+* Side cutters
+* Precision screwdriver
 * Multimeter for continuity checks
 * 3D printer and filament
 
@@ -73,26 +78,30 @@ Use the files in the **`production`** folder to upload for manufacturing. The PC
 
 > **Tip:** Print a small calibration part first to confirm switch tolerances before committing to the full print.
 
-**Image placeholders:**
-`docs/img/print-orientation.jpg`
-`docs/img/switch-insert-during-print.jpg`
 
 ---
 
 ## Step 2: Prepare and Assemble the Case
 
 1. Heat-press **2-56 × 4.0** threaded inserts into the mounting slots.
-2. Verify that each insert is aligned **perfectly vertical (90°)** relative to the side walls.
-3. Apply **rubberized feet** to the bottom of each case.
-4. Straighten **power switch leads**, if necessary.
-5. Secure the switch using a soldering iron or a **small dab of super glue**.
-6. Solder two **4-inch wires** to the switch, leaving bare ends for the PCB connection.
-7. Insert the **battery** into its slot, route cables upward, and attach the **battery cover**.
+   
+   ![image16](images/Threaded_insert_line_up.jpg)
+   
+3. Verify that each insert is aligned **perfectly vertical (90°)** relative to the side walls.
 
-**Image placeholders:**
-`docs/img/inserts.jpg`
-`docs/img/rubber-feet.jpg`
-`docs/img/switch-wiring.jpg`
+   ![image16](images/Threaded_insert_installed.jpg)
+   
+5. Apply **rubberized feet** to the bottom of each case.
+
+   ![image16](images/Rubber_feet_all.jpg)
+
+7. Straighten **power switch leads**, if necessary.
+8. Secure the switch using a soldering iron or a **small dab of super glue**.
+9. Solder two **4-inch wires** to the switch, leaving bare ends for the PCB connection.
+10. Insert the **battery** into its slot, route cables upward, and attach the **battery cover**.
+    
+    ![image5](images/PXL_20251008_170046314.jpg)
+    ![image5](images/PXL_20251008_170105912.jpg)
 
 ---
 
