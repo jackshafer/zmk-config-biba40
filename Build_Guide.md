@@ -107,17 +107,12 @@ If you're looking to have these PCBs custom made, use the Gerber files located i
 
 ## Step 3: Flash the Microcontrollers
 
-> These steps assume a UF2-capable microcontroller. Adjust as needed for other bootloaders.
 
 1. Connect one microcontroller via USB.
 2. If the computer does not detect it, short **RST** and **GND** twice to enter bootloader mode.
 3. Drag the correct **ZMK firmware UF2** file (left or right) onto the mounted drive. The device will automatically disconnect when flashing completes.
 4. Label the microcontroller **Left** or **Right**.
 5. Repeat for the second half.
-
-**Image placeholders:**
-`docs/img/bootloader.jpg`
-`docs/img/uf2-drag-drop.jpg`
 
 ---
 
@@ -138,11 +133,6 @@ If you're looking to have these PCBs custom made, use the Gerber files located i
 13. Flip the board and solder the switch pins, ensuring switches sit **flush** to the PCB.
 14. Add and solder any remaining switches.
 
-**Image placeholders:**
-`docs/img/diode-polarity.jpg`
-`docs/img/header-alignment.jpg`
-`docs/img/switch-soldering.jpg`
-
 ---
 
 ## Step 5: Final Assembly
@@ -154,10 +144,6 @@ If you're looking to have these PCBs custom made, use the Gerber files located i
 5. Flip the PCB into position, aligning the screw holes.
 6. Insert screws through the **mini plate** and into the **threaded inserts**. Tighten gently.
 7. Install **keycaps**.
-
-**Image placeholders:**
-`docs/img/wire-routing.jpg`
-`docs/img/case-closeup.jpg`
 
 ---
 
