@@ -17,7 +17,7 @@ The **BIBA40** is a compact, split, wireless keyboard powered by ZMK firmware an
 
 ### Custom Printed PCB
 
-If you're looking to have one of these PCBs custom make, use the files in the **`production`** folder to upload for manufacturing. The PCBs for the BIBA40 were produced by [PCBWay](https://www.pcbway.com/). Their fabrication process ensured a reliable build and helped bring this project to life. The **V2** boards were manufactured and delivered in under one week.
+If you're looking to have one of these PCBs custom made, use the files in the **`production`** folder to upload for manufacturing. The PCBs for the BIBA40 were produced by [PCBWay](https://www.pcbway.com/). Their fabrication process ensured a reliable build and helped bring this project to life. The **V2** boards were manufactured and delivered in under one week.
 
 ![image2](images/PXL_20250418_230730889.jpg)
 
