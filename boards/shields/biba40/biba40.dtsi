@@ -1,20 +1,29 @@
+// boards/shields/biba40/biba40.dtsi
+
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "biba40-layouts.dtsi"
 
 / {
     chosen {
+        /* Shared kscan for both halves */
         zmk,kscan = &kscan0;
-        zmk,matrix_transform = &default_transform;
+
+        /* Studio requires a physical layout (NOT matrix-transform) */
+        zmk,physical-layout = &biba40_layout;
     };
 
+    /* Matrix -> key position transform (kept as before).
+     * Right-half overlay adjusts this via:  &default_transform { col-offset = <6>; }
+     */
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <12>;
         rows = <4>;
-// | SW6  | SW5  | SW4  | SW3  | SW2  | SW1  |                 | SW1  | SW2  | SW3  | SW4  | SW5  | SW6  |
-// | SW12 | SW11 | SW10 | SW9  | SW8  | SW7  |                 | SW7  | SW8  | SW9  | SW10 | SW11 | SW12 |
-// | SW18 | SW17 | SW16 | SW15 | SW14 | SW13 |                 | SW13 | SW14 | SW15 | SW16 | SW17 | SW18 |
-// | SW24 | SW23 | SW22 | SW21 | SW20 | SW19 |                 | SW19 | SW20 | SW21 | SW22 | SW23 | SW24 |
 
+        // | SW6  | SW5  | SW4  | SW3  | SW2  | SW1  |                 | SW1  | SW2  | SW3  | SW4  | SW5  | SW6  |
+        // | SW12 | SW11 | SW10 | SW9  | SW8  | SW7  |                 | SW7  | SW8  | SW9  | SW10 | SW11 | SW12 |
+        // | SW18 | SW17 | SW16 | SW15 | SW14 | SW13 |                 | SW13 | SW14 | SW15 | SW16 | SW17 | SW18 |
+        // | SW24 | SW23 | SW22 | SW21 | SW20 | SW19 |                 | SW19 | SW20 | SW21 | SW22 | SW23 | SW24 |
 
         map = <
 RC(0,0) RC(0,1) RC(0,2) RC(0,3) RC(0,4) RC(0,5)                 RC(0,6) RC(0,7) RC(0,8) RC(0,9) RC(0,10) RC(0,11)
@@ -24,16 +33,18 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)                 RC(3,6) RC(3,7) 
         >;
     };
 
+    /* Shared kscan definition */
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         wakeup-source;
         diode-direction = "col2row";
+
         row-gpios
             = <&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&pro_micro 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&pro_micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
-
+        /* col-gpios are provided by left/right overlays */
     };
 };
