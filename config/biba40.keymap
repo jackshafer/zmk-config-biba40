@@ -27,9 +27,10 @@ As such, those are in use within the default layer at this time.*/
 &mt { tapping-term-ms = <250>; };
 
 / {
- /* -------------------------
+    /* -------------------------
      * Auto Shift implementation
      * ------------------------- */
+
     behaviors {
         as_ht: autoshift_hold_tap {
             compatible = "zmk,behavior-hold-tap";
@@ -41,8 +42,7 @@ As such, those are in use within the default layer at this time.*/
         };
     };
 
-
-        combos {
+    combos {
         compatible = "zmk,combos";
 
         ctrl-back {
@@ -110,18 +110,27 @@ As such, those are in use within the default layer at this time.*/
             key-positions = <30 31>;
             timeout-ms = <50>;
         };
+
+        Minus {
+            bindings = <&kp MINUS>;
+            key-positions = <0 1>;
+        };
     };
- 
-        macros {
+
+    macros {
         /* Auto-shift macros */
+
         shifted: macro_shifted_kp {
             compatible = "zmk,behavior-macro-one-param";
             label = "MACRO_SHIFTED_KP";
             #binding-cells = <1>;
             bindings =
-                <&macro_press &kp LSHFT>,
-                <&macro_param_1to1 &macro_tap &kp MACRO_PLACEHOLDER>,
-                <&macro_release &kp LSHFT>;
+                <&macro_press>,
+                <&kp LSHFT &macro_param_1to1>,
+                <&macro_tap>,
+                <&kp MACRO_PLACEHOLDER>,
+                <&macro_release>,
+                <&kp LSHFT>;
         };
 
         as: autoshift {
@@ -130,14 +139,12 @@ As such, those are in use within the default layer at this time.*/
             #binding-cells = <1>;
             bindings =
                 <&macro_press>,
-                <&macro_param_1to1>, <&macro_param_1to2>,
-                <&as_ht MACRO_PLACEHOLDER MACRO_PLACEHOLDER>,
+                <&macro_param_1to1 &macro_param_1to2 &as_ht MACRO_PLACEHOLDER MACRO_PLACEHOLDER>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&macro_param_1to1>, <&macro_param_1to2>,
-                <&as_ht MACRO_PLACEHOLDER MACRO_PLACEHOLDER>;
+                <&macro_param_1to1 &macro_param_1to2 &as_ht MACRO_PLACEHOLDER MACRO_PLACEHOLDER>;
         };
-   
+
         onenote: onenote {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -164,10 +171,10 @@ As such, those are in use within the default layer at this time.*/
             // | FUNC |  CTRL  |  LALT  |  LGUI  | LOWER  | SPACE  |                                      | SPACE  |  RAISE |  SLASH |  LEFT  |  DOWN  |  RIGHT |
 
             bindings = <
-&kp TAB              &as Q      &as W     &as E     &as R      &as T      &as Y      &as U      &as I      &as O       &as P           &kp BSPC
-&mt LEFT_ALT ESCAPE  &as A      &as S     &as D     &as F      &as G      &as H      &as J      &as K      &as L       &as SEMI        &as SQT
-&kp LSHFT            &as Z      &as X     &as C     &as V      &as B      &as N      &as M      &as COMMA  &as PERIOD  &kp UP          &mt RIGHT_SHIFT QUESTION
-&kp LEFT_CONTROL     &kp LEFT_WIN  &tog 3  &mt UNDER MINUS  &mo LOWER  &kp ENTER  &kp SPACE  &sl RAISE  &mt BACKSLASH SLASH  &kp LEFT    &kp DOWN        &kp RIGHT
+&kp TAB              &as Q         &as W   &as E            &as R      &as T      &as Y      &as U      &as I                &as O       &as P                &kp BSPC
+&mt LEFT_ALT ESCAPE  &as A         &as S   &as D            &as F      &as G      &as H      &as J      &as K                &as L       &mt SEMICOLON COLON  &as SQT
+&kp LSHFT            &as Z         &as X   &as C            &as V      &as B      &as N      &as M      &as COMMA            &as PERIOD  &kp UP               &mt RIGHT_SHIFT QUESTION
+&kp LEFT_CONTROL     &kp LEFT_WIN  &tog 3  &mt UNDER MINUS  &mo LOWER  &kp ENTER  &kp SPACE  &sl RAISE  &mt BACKSLASH SLASH  &kp LEFT    &kp DOWN             &kp RIGHT
             >;
         };
 
