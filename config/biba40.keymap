@@ -174,7 +174,7 @@ As such, those are in use within the default layer at this time.*/
 &kp TAB              &as Q         &as W   &as E            &as R      &as T      &as Y      &as U      &as I                &as O       &as P                &kp BSPC
 &mt LEFT_ALT ESCAPE  &as A         &as S   &as D            &as F      &as G      &as H      &as J      &as K                &as L       &mt SEMICOLON COLON  &as SQT
 &kp LSHFT            &as Z         &as X   &as C            &as V      &as B      &as N      &as M      &as COMMA            &as PERIOD  &kp UP               &mt RIGHT_SHIFT QUESTION
-&kp LEFT_CONTROL     &kp LEFT_WIN  &tog 3  &mt UNDER MINUS  &mo LOWER  &kp ENTER  &kp SPACE  &sl RAISE  &mt BACKSLASH SLASH  &kp LEFT    &kp DOWN             &kp RIGHT
+&kp LEFT_CONTROL     &kp LEFT_WIN  &tog 3  &mt TILDE ASTRK  &mo LOWER  &kp ENTER  &kp SPACE  &sl RAISE  &mt BACKSLASH SLASH  &kp LEFT    &kp DOWN             &kp RIGHT
             >;
         };
 
@@ -186,10 +186,10 @@ As such, those are in use within the default layer at this time.*/
             // | BOOT |      |      |      |      |      |                                  |      |      |  0   |      |VOL D |      |
 
             bindings = <
-&mt UNDERSCORE MINUS  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7      &kp N8  &kp N9  &kp N0        &kp DELETE
-&trans                &trans  &trans  &trans  &trans  &trans  &trans  &kp N4      &kp N5  &kp N6  &kp MINUS     &kp PLUS
-&trans                &trans  &trans  &trans  &trans  &trans  &trans  &kp N1      &kp N2  &kp N3  &kp C_VOL_UP  &kp ENTER
-&bootloader           &trans  &trans  &trans  &trans  &trans  &trans  &mo ADJUST  &kp N0  &trans  &kp C_VOL_DN  &trans
+&mt UNDERSCORE MINUS  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7      &kp N8  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DELETE
+&trans                &trans  &trans  &trans  &trans  &trans  &trans  &kp N4      &kp N5  &kp N6                &kp MINUS              &kp PLUS
+&trans                &trans  &trans  &trans  &trans  &trans  &trans  &kp N1      &kp N2  &kp N3                &kp C_VOL_UP           &kp ENTER
+&bootloader           &trans  &trans  &trans  &trans  &trans  &trans  &mo ADJUST  &kp N0  &trans                &kp C_VOL_DN           &trans
             >;
         };
 
