@@ -174,7 +174,7 @@ As such, those are in use within the default layer at this time.*/
 &kp TAB              &as Q         &as W  &as E            &as R      &as T      &as Y      &as U      &as I                &as O       &as P                &kp BSPC
 &mt LEFT_ALT ESCAPE  &as A         &as S  &as D            &as F      &as G      &as H      &as J      &as K                &as L       &mt SEMICOLON COLON  &as SQT
 &kp LSHFT            &as Z         &as X  &as C            &as V      &as B      &as N      &as M      &as COMMA            &as PERIOD  &kp UP               &mt RIGHT_SHIFT QUESTION
-&kp LEFT_CONTROL     &kp LEFT_WIN  &sl 3  &mt TILDE ASTRK  &mo LOWER  &kp ENTER  &kp SPACE  &sl RAISE  &mt BACKSLASH SLASH  &kp LEFT    &kp DOWN             &kp RIGHT
+&kp LEFT_CONTROL     &kp LEFT_WIN  &sl 3  &mt TILDE ASTRK  &sl LOWER  &kp ENTER  &kp SPACE  &sl RAISE  &mt BACKSLASH SLASH  &kp LEFT    &kp DOWN             &kp RIGHT
             >;
         };
 
@@ -201,7 +201,7 @@ As such, those are in use within the default layer at this time.*/
             // |       |       |       |       |       |       |                                    |       |       |       | LT    | GT    | BOOT  |
 
             bindings = <
-&onenote   &kp EXCL  &kp AT        &kp HASH         &kp DOLLAR        &kp PRCNT          &kp CARET   &kp AMPS      &kp DELETE    &kp N7        &kp N8        &kp N9
+&onenote   &kp EXCL  &kp AT        &kp HASH         &kp DOLLAR        &kp PRCNT          &kp CARET   &kp AMPS      &kp ASTERISK  &kp N7        &kp N8        &kp N9
 &trans     &trans    &trans        &kp LC(LA(DEL))  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL   &kp MINUS     &kp PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6
 &kp LSHFT  &kp BSLH  &bt BT_SEL 1  &bt BT_SEL 2     &bt BT_SEL 3      &bt BT_CLR_ALL     &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &kp NUMBER_1  &kp NUMBER_2  &kp N3
 &trans     &kp CAPS  &trans        &trans           &mo ADJUST        &trans             &trans      &trans        &trans        &kp NUMBER_0  &kp GT        &bootloader
