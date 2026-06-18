@@ -174,7 +174,7 @@ As such, those are in use within the default layer at this time.*/
 &kp TAB              &as Q         &as W  &as E            &as R      &as T      &as Y      &as U      &as I                &as O       &as P                &kp BSPC
 &mt LEFT_ALT ESCAPE  &as A         &as S  &as D            &as F      &as G      &as H      &as J      &as K                &as L       &mt SEMICOLON COLON  &as SQT
 &kp LSHFT            &as Z         &as X  &as C            &as V      &as B      &as N      &as M      &as COMMA            &as PERIOD  &kp UP               &mt RIGHT_SHIFT QUESTION
-&kp LEFT_CONTROL     &kp LEFT_WIN  &sl 3  &mt TILDE ASTRK  &sl LOWER  &kp ENTER  &kp SPACE  &sl RAISE  &mt BACKSLASH SLASH  &kp LEFT    &kp DOWN             &kp RIGHT
+&kp LEFT_CONTROL     &kp LEFT_WIN  &sl 3  &mt TILDE UNDER  &sl LOWER  &kp ENTER  &kp SPACE  &sl RAISE  &mt BACKSLASH SLASH  &kp LEFT    &kp DOWN             &kp RIGHT
             >;
         };
 
