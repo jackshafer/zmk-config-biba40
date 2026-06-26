@@ -9,6 +9,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define DEFAULT 0
 #define LOWER  1
@@ -218,8 +219,8 @@ As such, those are in use within the default layer at this time.*/
             bindings = <
 &kp TAB      &kp N1          &kp N2        &kp N3        &kp NUMBER_4  &kp N5        &kp N6     &kp NUMBER_7  &kp N8     &kp N9          &kp N0               &kp BACKSPACE
 &bt BT_NXT   &out OUT_TOG    &out OUT_USB  &out OUT_BLE  &trans        &soft_off     &kp H      &kp J         &kp K      &kp L           &mt SEMICOLON COLON  &mt DOUBLE_QUOTES SINGLE_QUOTE
-&bt BT_PRV   &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp N      &kp M         &kp COMMA  &kp PERIOD      &kp UP_ARROW         &mt RIGHT_SHIFT QUESTION
-&bootloader  &trans          &trans        &kp MINUS     &trans        &kp RET       &kp SPACE  &trans        &trans     &kp LEFT_ARROW  &kp DOWN             &kp RIGHT
+&bt BT_PRV   &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp N      &kp M         &kp COMMA  &mkp LCLK       &mmv MOVE_UP         &mkp RCLK
+&bootloader  &trans          &trans        &kp MINUS     &trans        &kp RET       &kp SPACE  &trans        &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN       &mmv MOVE_RIGHT
             >;
         };
 
