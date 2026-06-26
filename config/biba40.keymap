@@ -172,10 +172,10 @@ As such, those are in use within the default layer at this time.*/
             // | FUNC |  CTRL  |  LALT  |  LGUI  | LOWER  | SPACE  |                                      | SPACE  |  RAISE |  SLASH |  LEFT  |  DOWN  |  RIGHT |
 
             bindings = <
-&kp TAB              &as Q         &as W  &as E            &as R      &as T      &as Y      &as U      &as I                &as O       &as P                &kp BSPC
-&mt LEFT_ALT ESCAPE  &as A         &as S  &as D            &as F      &as G      &as H      &as J      &as K                &as L       &mt SEMICOLON COLON  &as SQT
-&kp LSHFT            &as Z         &as X  &as C            &as V      &as B      &as N      &as M      &as COMMA            &as PERIOD  &kp UP               &mt RIGHT_SHIFT QUESTION
-&kp LEFT_CONTROL     &kp LEFT_WIN  &sl 3  &mt TILDE UNDER  &sl LOWER  &kp ENTER  &kp SPACE  &sl RAISE  &mt BACKSLASH SLASH  &kp LEFT    &kp DOWN             &kp RIGHT
+&kp TAB              &as Q         &as W        &as E            &as R      &as T      &as Y      &as U      &as I                &as O       &as P                &kp BSPC
+&mt LEFT_ALT ESCAPE  &as A         &as S        &as D            &as F      &as G      &as H      &as J      &as K                &as L       &mt SEMICOLON COLON  &as SQT
+&kp LSHFT            &as Z         &as X        &as C            &as V      &as B      &as N      &as M      &as COMMA            &as PERIOD  &kp UP               &mt RIGHT_SHIFT QUESTION
+&kp LEFT_CONTROL     &kp LEFT_WIN  &lt 3 TILDE  &mt TILDE UNDER  &sl LOWER  &kp ENTER  &kp SPACE  &sl RAISE  &mt BACKSLASH SLASH  &kp LEFT    &kp DOWN             &kp RIGHT
             >;
         };
 
@@ -190,7 +190,7 @@ As such, those are in use within the default layer at this time.*/
 &mt UNDERSCORE MINUS  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp PIPE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp N7        &kp N8        &kp N9
 &trans                &trans  &trans  &trans  &trans  &trans  &trans    &kp EQUAL             &kp MINUS              &kp NUMBER_4  &kp N5        &kp NUMBER_6
 &trans                &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
-&bootloader           &trans  &trans  &trans  &trans  &trans  &trans    &mo ADJUST            &kp N0                 &kp N0        &kp PERIOD    &kp DELETE
+&bootloader           &trans  &trans  &trans  &trans  &trans  &trans    &trans                &kp N0                 &kp N0        &kp PERIOD    &kp DELETE
             >;
         };
 
